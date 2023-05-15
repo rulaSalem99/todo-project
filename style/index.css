@@ -1,0 +1,115 @@
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+header ul li {
+  margin-left: 10px;
+}
+
+  
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+    margin: 0;
+}
+
+.table-width{
+  margin: 20px auto;
+  width: 25%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 150px auto;
+  font-size: 24px;
+  width: 50%;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+th, td {
+  text-align: left;
+  border: 1px solid black;
+  padding: 12px;
+}
+
+thead th {
+  background-color: black;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.completed {
+  background-color: green; 
+  color: white;
+}
+
+.cancelled {
+  background-color: red;
+  color: white;
+}
+
+  /* Style the footer */
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 16px;
+
+  }
+  
+  .fa-brands {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .fa-linkedin {
+    color: #0077b5;
+  }
+  
+  .fa-instagram {
+    color: #e1306c;
+  }
+  

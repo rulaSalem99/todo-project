@@ -58,9 +58,9 @@ function promptWithValidation(message) {
   // Function to print the answers in the console
   function printAnswers(answers) {
     console.log("Answers:");
-    answers.forEach(function(answer, index) {
-      console.log((index + 1) + ". " + answer);
-    });
+    for (let i = 0; i < answers.length; i++) {
+      console.log((i + 1) + ". " + answers[i]);
+    }
   }
   
   // More questions
